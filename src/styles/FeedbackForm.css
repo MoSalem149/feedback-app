@@ -1,0 +1,45 @@
+.form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  padding: 15px;
+  border: 1px solid #5b86e5;
+  border-radius: 12px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.input-group input:focus {
+  border-color: #36d1dc;
+}
+
+.message {
+  font-size: 1rem;
+  color: #ff7675;
+  text-align: center;
+  margin-top: 15px;
+}

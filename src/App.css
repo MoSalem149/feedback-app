@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: #fff;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .input-group {
+    flex-direction: column;
+  }
+
+  .header h2 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 1.1rem;
+  }
+
+  .feedback-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .feedback-item .text {
+    margin: 15px 0;
+  }
+
+  .rating-select {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
+  }
+
+  .rating-select label {
+    padding: 10px 15px;
+    font-size: 1rem;
+  }
+}

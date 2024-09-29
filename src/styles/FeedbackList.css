@@ -1,0 +1,11 @@
+.feedback-list {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.feedback-list p {
+  font-size: 1.5rem;
+  color: #dfe6e9;
+  text-align: center;
+}
