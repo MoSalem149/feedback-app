@@ -6,8 +6,11 @@ This is a feedback collection application built using React.js. Users can submit
 
 The app consists of the following screens:
 
-1. **Main Screen**:
-   ![Main Screen](screens/main-screen.png)
+1. **Feedback App Main Screen**:
+   ![Feedback App Main Screen](screens/feedback-app-main-screen.png)
+
+2. **Feedback App List Screen**:
+   ![Feedback App List Screen](screens/feedback-app-list-screen.png)
 
 ## Features
 
