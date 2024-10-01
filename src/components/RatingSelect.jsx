@@ -1,9 +1,15 @@
 import PropTypes from "prop-types";
-import { useState } from "react";
+import { useState, useEffect, useContext } from "react";
+import FeedbackContext from "../context/FeedbackContext";
 import "../styles/RatingSelect.css";
 function RatingSelect({ select }) {
   const [selected, setSelected] = useState(10);
 
+  const { feedbackEdit } = useContext(FeedbackContext);
+
+  useEffect(() => {
+    setSelected(feedbackEdit.item.rating);
+  }, [feedbackEdit]);
   const handleChange = (e) => {
     setSelected(parseInt(e.target.value));
     select(parseInt(e.target.value));

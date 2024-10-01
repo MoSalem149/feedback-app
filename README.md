@@ -1,6 +1,6 @@
 # Feedback App
 
-This is a feedback collection application built using React.js. Users can submit their feedback, rate their experience, and view an aggregate of the feedback provided by others. This project showcases component-based architecture, state management, and API simulation.
+This is a feedback collection application built using React.js. Users can submit their feedback, rate their experience, and view an aggregate of the feedback provided by others. This project showcases component-based architecture, state management, and API simulation. And the users can edit or delete their feedback.
 
 ## Screens
 
@@ -16,6 +16,7 @@ The app consists of the following screens:
 
 - Submit feedback with a rating between 1 and 10
 - View a list of all feedback provided
+- Edit or delete your feedback
 - Display aggregate statistics such as average rating
 - Simulate API functionality with local data
 
@@ -31,6 +32,7 @@ The app consists of the following components:
 - **FeedbackStats.jsx**: Shows aggregate statistics like the total number of feedback entries and the average rating.
 - **RatingSelect.jsx**: Provides a rating selection component for users.
 - **Button.jsx**: A reusable button component.
+- **FeedbackContext.jsx**: Contain all global function and props in the app.
 - **feedbackApi.js**: Simulates an API response with local data.
 
 ## Usage

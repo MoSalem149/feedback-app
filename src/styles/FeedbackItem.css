@@ -44,3 +44,19 @@
 .close:hover {
   opacity: 0.8;
 }
+
+.edit {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 10px;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.edit:hover {
+  opacity: 0.8;
+}
